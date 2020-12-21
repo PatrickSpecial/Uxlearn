@@ -1,0 +1,28 @@
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .show>.nav-link {
+    color: white;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row > div[class*='col-'] {
+    display: flex;
+}
+
+.bg-dark {
+    background: #131B23 !important;
+}
+
+.bg-secondary {
+    background: #202E3B !important;
+}
+
+.card-body {
+    float: left;
+}
